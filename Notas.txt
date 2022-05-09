@@ -1,0 +1,3 @@
+
+Super Usuario -> Director de programa: esta por encima de los administradores.
+
