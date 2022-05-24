@@ -1,0 +1,8 @@
+2022-05-17T20:13:57.3327671-05:00 80000014-0004-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/swagger/index.html   (ca22a1cb)
+2022-05-17T20:13:57.7199886-05:00 80000014-0004-fa00-b63f-84710c7967bb [INF] Request finished in 397.7271ms 200 text/html;charset=utf-8 (791a596a)
+2022-05-17T20:13:59.2334823-05:00 80000087-0005-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/swagger/v1/swagger.json   (ca22a1cb)
+2022-05-17T20:13:59.4356826-05:00 80000087-0005-fd00-b63f-84710c7967bb [INF] Request finished in 215.3574ms 200 application/json;charset=utf-8 (791a596a)
+2022-05-17T20:23:21.6739372-05:00 80000006-0002-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/api/Usuario application/json-patch+json 124 (ca22a1cb)
+2022-05-17T20:23:21.7438399-05:00 80000006-0002-fe00-b63f-84710c7967bb [INF] Executing endpoint '"RoomManger.WebApi.Controllers.UsuarioController.InsertarUsuarioAsync (RoomManger.WebApi)"' (500cc934)
+2022-05-17T20:23:21.8412347-05:00 80000006-0002-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"InsertarUsuarioAsync\", controller = \"Usuario\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertarUsuarioAsync(RoomManager.Aplicacion.DTO.UsuarioDTO)" on controller "RoomManger.WebApi.Controllers.UsuarioController" ("RoomManger.WebApi"). (122b2fdf)
+2022-05-17T20:23:22.6413268-05:00 80000006-0002-fe00-b63f-84710c7967bb [INF] Executing action method "RoomManger.WebApi.Controllers.UsuarioController.InsertarUsuarioAsync (RoomManger.WebApi)" - Validation state: Valid (dad538d7)

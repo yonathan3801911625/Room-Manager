@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomManager.Dominio.InterfazRepositorio\RoomManager.Dominio.InterfazRepositorio.csproj" />
+    <ProjectReference Include="..\RoomManager.Dominio.Interfaz\RoomManager.Dominio.Interfaz.csproj" />
+  </ItemGroup>
+
+</Project>

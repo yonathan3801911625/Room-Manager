@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RoomManger.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:RoomManger.WebApi.Extensions.ServiceCollectionExtension.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Método estático que permite hacer la inyección de dependencias entre capas.
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RoomManger.WebApi.Extensions.ServiceCollectionExtension.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            Método estático que permite definir la configuración de swagger.
+            </summary>
+            <param name="services"></param>
+            <param name="xmlFileName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

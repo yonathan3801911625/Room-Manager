@@ -1,0 +1,16 @@
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Core.deps.json
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Core.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Core.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Interfaz.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Interfaz.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.csprojAssemblyReference.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.csproj.CoreCompileInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.AssemblyInfoInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.AssemblyInfo.cs
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.csproj.CopyComplete
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Core\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Core.pdb
