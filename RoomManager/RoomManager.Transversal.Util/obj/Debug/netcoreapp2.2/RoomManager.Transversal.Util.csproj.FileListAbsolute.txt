@@ -1,0 +1,12 @@
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Util.deps.json
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Util.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Util.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.csprojAssemblyReference.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.csproj.CoreCompileInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.AssemblyInfoInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.AssemblyInfo.cs
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.csproj.CopyComplete
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Util\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Util.pdb

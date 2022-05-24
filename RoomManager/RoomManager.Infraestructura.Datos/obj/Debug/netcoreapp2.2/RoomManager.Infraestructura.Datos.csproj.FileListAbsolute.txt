@@ -1,0 +1,14 @@
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.deps.json
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Interfaz.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Interfaz.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.pdb
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csprojAssemblyReference.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csproj.CoreCompileInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.AssemblyInfoInputs.cache
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.AssemblyInfo.cs
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csproj.CopyComplete
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.dll
+C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.pdb

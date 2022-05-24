@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoomManager.Aplicacion.DTO\RoomManager.Aplicacion.DTO.csproj" />
+    <ProjectReference Include="..\RoomManager.Aplicacion.Interfaz\RoomManager.Aplicacion.Interfaz.csproj" />
+    <ProjectReference Include="..\RoomManager.Dominio.Interfaz\RoomManager.Dominio.Interfaz.csproj" />
+    <ProjectReference Include="..\RoomManager.Transversal.Comun\RoomManager.Transversal.Comun.csproj" />
+  </ItemGroup>
+
+</Project>
