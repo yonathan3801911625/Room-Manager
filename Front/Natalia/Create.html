@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Manager Room Edit
+    Manager Room EDIT
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -71,52 +71,113 @@
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
               <div class="bg-gradient-info shadow-dark border-radius-lg pt-4 pb-3">
-                <h6 class="text-white text-capitalize ps-3">Editar Usuario</h6>
+                <h6 class="text-white text-capitalize ps-3">Crear Reserva</h6>
               </div>
             </div>
 
             <section>
-              <div class="container py-6">
+              <div class="container py-4">
                 <div class="row">
                   <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
                     <br>
+  
+  </form>
                     <form role="form" id="contact-form" method="post" autocomplete="off">
                       <div class="card-body">
+                        <div class="mb-3">
+                        <label for="pwd">¿Quien Reserva?</label>
+                        <select name="transporte">
+                          <option> DIRECTOR</option>
+                          <option>MAESTROS</option>
+                          <option>AUDITORES</option>
+                        </select>
+                      </div>
                         <div class="row">
-                          <div class="col-md-6 ps-2">
-                            <div class="input-group input-group-dynamic mb-5">
-                              <label class="form-label">Nombre Usuario:</label>
+                          <div class="col-md-6">
+                            <div class="input-group input-group-dynamic mb-4">
+                              <label class="form-label">Nombre:</label>
                               <input class="form-control" aria-label="First Name..." type="text" >
                             </div>
                           </div>
                           <div class="col-md-6 ps-2">
                             <div class="input-group input-group-dynamic">
-                              <label class="form-label">Identificacion Usuario:</label>
+                              <label class="form-label">Apellido:</label>
                               <input type="text" class="form-control" placeholder="" aria-label="Last Name..." >
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-12">
+                        <div class="mb-4">
                           <div class="input-group input-group-dynamic">
-                            <label class="form-label">Id Usuario:</label>
+                            <label class="form-label">Codigo:</label>
                             <input type="email" class="form-control">
                           </div>
-                          <br>
                         </div>
-                        <div class="col-md-12">
-                            <div class="input-group-dynamic" style="background-image:linear-gradient(0deg, #d2d2d2 1px, rgba(209, 209, 209, 0) 0);">
-                              <label class="input-group-dynamic">Contraseña: </label>
-                               <input name="usuario_password" type="password" class="form-control" id="contrasena">
+                        <div class="mb-3">
+                        <label for="pwd">SALAS EDIFICIO ADMINISTRATIVO</label>
+                        <select name="transporte">
+                          <option> SALA A(20)</option>
+                          <option>SALA B(20)</option>
+                          <option>SALA C(20)</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="pwd">SALAS EDIFICIO DEL PARQUE <BR>
+                        (SEGUNDO PISO)</label>
+                        <select name="transporte">
+                          <option> SALA D(19)</option>
+                          <option>SALA E(20)</option>
+                          <option>SALA F(20)</option>
+                          <option>SALA L(20)</option>
+                          <option>SALA D(218)(20) </option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="pwd">SALAS EDIFICIO ORLANDO SIERRA <BR> (TERCER PISO)</label>
+                        <select name="transporte">
+                          <option> SALA H1 (15)</option>
+                          <option>SALA H2 (15)</option>
+                          <option>SALA I (30)</option>
+                          <option>SALA J (19)</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="pwd">SALAS EDIFICIO PALOGRANDE <BR> (SEGUNDO PISO)</label>
+                        <select name="transporte">
+                          <option> SALA O (8)</option>
+                        </select>
+                      </div>
+                          <div class="mb-3">
+                              <label for="pwd">Fecha de la  Reserva:</label>
+                              <input type="date" name="bday" />
                             </div>
-                          
-                        </div>
-
-                        <div class="row" style="margin-top: 45PX;">
+                            <div class="mb-3">
+                              <label for="pwd">Hora de la Reserva:</label>
+                              <select name="transporte">
+                                <option>7 a.m.</option>
+                                <option>8 a.m.</option>
+                                <option>9 a.m.</option>
+                                <option>10 a.m.</option>
+                                <option>11 a.m.</option>
+                                <option>12 p.m.</option>
+                                <option>1 p.m.</option>
+                                <option>2 p.m.</option>
+                                <option>3 p.m.</option>
+                                <option>4 p.m.</option>
+                                <option>5 p.m.</option>
+                                <option>6 p.m.</option>
+                                <option>7 p.m.</option>
+                                <option>8 p.m.</option>
+                                <option>9 p.m.</option>
+                                <option>10 p.m.</option>
+                              </select>
+                            </div>
+                        
+                        <div class="row">
                           <div class="col-md-12">
+                            <a class="btn btn-primary w-100" href="Read.html" type="button">Reservar</a>
                             <a class="btn bg-gradient-secondary w-100" href="Read.html" type="button">Cancelar</a>
-                            <a class="btn bg-gradient-success w-100" href="Read.html" type="button">Registrar</a>
-                            <!-- <button type="submit" class="btn bg-gradient-secondary w-100">Cancelar</button>
-                            <button type="submit" class="btn bg-gradient-success w-100">Registrar</button> -->
+                            <a class="btn bg-gradient-success w-100" href="Read.html" type="button">Modificar</a>
+                            <!-- <button type="submit" class="btn bg-gradient-success w-100">Modificar</button> -->
                           </div>
                         </div>
                       </div>
@@ -125,7 +186,7 @@
                 </div>
               </div>
             </section>
-          
+    
           </div>
         </div>
       </div>

@@ -13,3 +13,9 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+
+.cabecera{
+
+background: red !important;
+}
