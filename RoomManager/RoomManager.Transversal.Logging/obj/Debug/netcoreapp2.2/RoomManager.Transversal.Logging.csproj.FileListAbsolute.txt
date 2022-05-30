@@ -10,3 +10,15 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Logging\obj\D
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.csproj.CopyComplete
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.deps.json
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.csproj.CopyComplete
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Logging\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Logging.pdb

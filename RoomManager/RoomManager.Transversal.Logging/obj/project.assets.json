@@ -7788,11 +7788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Logging\\RoomManager.Transversal.Logging.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Logging\\RoomManager.Transversal.Logging.csproj",
       "projectName": "RoomManager.Transversal.Logging",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Logging\\RoomManager.Transversal.Logging.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Logging\\RoomManager.Transversal.Logging.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Logging\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Logging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7811,8 +7811,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj"
             }
           }
         }

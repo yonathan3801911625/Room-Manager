@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj",
       "projectName": "RoomManager.Dominio.InterfazRepositorio",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj"
             }
           }
         }

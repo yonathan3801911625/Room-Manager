@@ -12,3 +12,17 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csproj.CopyComplete
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.pdb
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.deps.json
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.dll
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.pdb
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Interfaz.dll
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.dll
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Infraestructura.Interfaz.pdb
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.pdb
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.csproj.CopyComplete
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.dll
+C:\RoomManager\RoomManager\RoomManager.Infraestructura.Datos\obj\Debug\netcoreapp2.2\RoomManager.Infraestructura.Datos.pdb

@@ -4,6 +4,14 @@
         <name>RoomManger.WebApi</name>
     </assembly>
     <members>
+        <member name="M:RoomManger.WebApi.Extensions.FeatureExtensions.AddFeature(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Método estático que permite configurar las características generales como los CORS.
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
         <member name="M:RoomManger.WebApi.Extensions.ServiceCollectionExtension.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             Método estático que permite hacer la inyección de dependencias entre capas.

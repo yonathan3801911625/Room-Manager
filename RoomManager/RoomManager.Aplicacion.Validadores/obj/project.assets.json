@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.Validadores\\RoomManager.Aplicacion.Validadores.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.Validadores\\RoomManager.Aplicacion.Validadores.csproj",
       "projectName": "RoomManager.Aplicacion.Validadores",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.Validadores\\RoomManager.Aplicacion.Validadores.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.Validadores\\RoomManager.Aplicacion.Validadores.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.Validadores\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.Validadores\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

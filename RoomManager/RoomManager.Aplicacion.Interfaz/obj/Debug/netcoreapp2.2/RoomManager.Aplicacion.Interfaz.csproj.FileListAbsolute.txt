@@ -12,3 +12,17 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Interfaz\obj\D
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.csproj.CopyComplete
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.deps.json
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Comun.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.csproj.CopyComplete
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Interfaz\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Interfaz.pdb

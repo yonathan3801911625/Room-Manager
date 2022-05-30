@@ -7,3 +7,12 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Entidad\obj\Debug
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.deps.json
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
+C:\RoomManager\RoomManager\RoomManager.Dominio.Entidad\obj\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb

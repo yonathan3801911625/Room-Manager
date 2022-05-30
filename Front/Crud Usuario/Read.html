@@ -80,6 +80,15 @@
               </div>
             </div>
           </div>
+          <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+              <div class="input-group input-group-outline">
+                <!-- <label class="form-label">Type here...</label>
+                <input type="text" class="form-control"> -->
+                <a class="btn btn-dark btn-md" onclick="verUsuarios()" type="button" >verUsuarios</a>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
 
@@ -95,7 +104,7 @@
             </div>
             <div class="card-body px-0 pb-2">
               <div class="table-responsive p-0">
-                <table class="table align-items-center mb-0">
+                <!--<table class="table align-items-center mb-0">
                   <thead>
                     <tr>
                       <th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7">Nombre</th>
@@ -164,7 +173,10 @@
                     
                     
                   </tbody>
-                </table>
+                </table>-->
+                <div id="datosUsuario">
+
+                </div>
               </div>
             </div>
           </div>
@@ -195,6 +207,7 @@
   <script src="../assets/js/core/bootstrap.min.js"></script>
   <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -235,3 +248,65 @@
           </div>
         </div>
       </div>
+      <script>
+        $(document).ready(function() {  
+          
+          });
+        function verUsuarios(){
+        //$(document).ready(function() {  
+          var tablaUsuarios = '<table class="table align-items-center mb-0">'+
+                  '<thead>'+
+                    '<tr>'+
+                      '<th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7">Nombre</th>'+
+                      '<th class="text-uppercase text-dark text-xs font-weight-bolder opacity-7 ps-2">Identificacion</th>'+
+                      '<th class="text-center text-uppercase text-dark text-xs font-weight-bolder opacity-7">Contraseña</th>'+
+                      '<th class="text-secondary opacity-7"></th>'+
+                      //'<th class="text-secondary opacity-7"></th>'+
+                    '</tr>'+
+                  '</thead>'+
+                  '<tbody>';
+
+          $.ajax({
+            url: 'https://localhost:44375/api/Usuario/ObtenerUsuariosAsync',
+            type: 'get',
+            //data: { idEmbarque: idEmbarque },
+            dataType: 'json',
+            success: function (datos) {
+                
+            //$('#modal1').html(modal);
+            for(var i=0;i < datos.datos.length;i++){
+              tablaUsuarios += '<tr>'+
+                        '<td><div class="d-flex px-2 py-1">'+
+                            '<h6 class="mb-0 text-sm">'+ datos.datos[i].nombreUsuario+'</h6>'+
+                      '</td>'+
+                      '<td>'+
+                        '<p class="text-xs font-weight-bold mb-0">'+ datos.datos[i].identificacionUsuario +'</p>'+
+                      '</td>'+
+                      '<td class="align-middle text-center text-sm">'+
+                        '<span class="badge badge-sm bg-gradient-success">'+ datos.datos[i].contraseñaUsuario+'</span>'+
+                      '</td>'+
+                      '<td class="align-middle">'+
+                        
+                        '<a class="btn btn-warning btn-sm" href="Edit.html" type="button">Editar</a>'+
+                        '<a class="btn btn-danger btn-sm" href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Borrar</a>'+
+                       '</td>'+
+                      '</tr>';
+              
+            
+            }
+            tablaUsuarios += '</tbody></table>';
+            $('#datosUsuario').html(tablaUsuarios);
+
+            window.onbeforeunload = function() {
+              return false;
+            }
+          },
+            error: function () {
+              alert('Petición con error');
+            }
+          });
+          return false;
+        //});
+        }
+      </script>
+            

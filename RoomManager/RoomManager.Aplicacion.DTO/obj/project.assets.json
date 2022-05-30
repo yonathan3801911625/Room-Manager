@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj",
       "projectName": "RoomManager.Aplicacion.DTO",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.DTO\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

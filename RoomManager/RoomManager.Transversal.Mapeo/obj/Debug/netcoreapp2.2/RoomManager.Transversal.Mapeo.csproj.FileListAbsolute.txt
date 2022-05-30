@@ -12,3 +12,17 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Mapeo\obj\Deb
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.csproj.CopyComplete
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.deps.json
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.csproj.CopyComplete
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.dll
+C:\RoomManager\RoomManager\RoomManager.Transversal.Mapeo\obj\Debug\netcoreapp2.2\RoomManager.Transversal.Mapeo.pdb

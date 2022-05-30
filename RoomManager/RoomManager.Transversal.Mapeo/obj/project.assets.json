@@ -1454,11 +1454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Mapeo\\RoomManager.Transversal.Mapeo.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Mapeo\\RoomManager.Transversal.Mapeo.csproj",
       "projectName": "RoomManager.Transversal.Mapeo",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Mapeo\\RoomManager.Transversal.Mapeo.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Mapeo\\RoomManager.Transversal.Mapeo.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Mapeo\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Mapeo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1477,11 +1477,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Aplicacion.DTO\\RoomManager.Aplicacion.DTO.csproj"
             },
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.Entidad\\RoomManager.Dominio.Entidad.csproj"
             }
           }
         }

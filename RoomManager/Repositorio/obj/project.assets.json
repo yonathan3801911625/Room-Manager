@@ -7943,11 +7943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\Repositorio\\RoomManager.Infraestructura.Repositorio.csproj",
+      "projectUniqueName": "C:\\RoomManager\\RoomManager\\Repositorio\\RoomManager.Infraestructura.Repositorio.csproj",
       "projectName": "RoomManager.Infraestructura.Repositorio",
-      "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\Repositorio\\RoomManager.Infraestructura.Repositorio.csproj",
+      "projectPath": "C:\\RoomManager\\RoomManager\\Repositorio\\RoomManager.Infraestructura.Repositorio.csproj",
       "packagesPath": "C:\\Users\\mjcorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\Repositorio\\obj\\",
+      "outputPath": "C:\\RoomManager\\RoomManager\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7966,14 +7966,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Dominio.InterfazRepositorio\\RoomManager.Dominio.InterfazRepositorio.csproj"
             },
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Infraestructura.Interfaz\\RoomManager.Infraestructura.Interfaz.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Infraestructura.Interfaz\\RoomManager.Infraestructura.Interfaz.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Infraestructura.Interfaz\\RoomManager.Infraestructura.Interfaz.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Infraestructura.Interfaz\\RoomManager.Infraestructura.Interfaz.csproj"
             },
-            "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj": {
-              "projectPath": "C:\\Users\\mjcorrea\\source\\repos\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj"
+            "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj": {
+              "projectPath": "C:\\RoomManager\\RoomManager\\RoomManager.Transversal.Comun\\RoomManager.Transversal.Comun.csproj"
             }
           }
         }

@@ -7,3 +7,12 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.pdb
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.deps.json
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.DTO\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.DTO.pdb

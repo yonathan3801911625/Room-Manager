@@ -10,3 +10,15 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.InterfazRepositor
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.csproj.CopyComplete
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.pdb
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\bin\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.deps.json
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\bin\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.dll
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\bin\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.pdb
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.dll
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\bin\Debug\netcoreapp2.2\RoomManager.Dominio.Entidad.pdb
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.csproj.CopyComplete
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.dll
+C:\RoomManager\RoomManager\RoomManager.Dominio.InterfazRepositorio\obj\Debug\netcoreapp2.2\RoomManager.Dominio.InterfazRepositorio.pdb

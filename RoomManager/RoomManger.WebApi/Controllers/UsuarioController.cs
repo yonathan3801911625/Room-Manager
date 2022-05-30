@@ -11,6 +11,7 @@ namespace RoomManger.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Produces("application/json")]
     public class UsuarioController : ControllerBase
     {
         // Atributos de clase.

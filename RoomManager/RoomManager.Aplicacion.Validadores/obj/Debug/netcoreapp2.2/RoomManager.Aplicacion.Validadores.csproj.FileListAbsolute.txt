@@ -7,3 +7,12 @@ C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Validadores\bi
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.dll
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.pdb
 C:\Users\mjcorrea\source\repos\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.deps.json
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\bin\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.pdb
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.csprojAssemblyReference.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.csproj.CoreCompileInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.AssemblyInfoInputs.cache
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.AssemblyInfo.cs
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.dll
+C:\RoomManager\RoomManager\RoomManager.Aplicacion.Validadores\obj\Debug\netcoreapp2.2\RoomManager.Aplicacion.Validadores.pdb

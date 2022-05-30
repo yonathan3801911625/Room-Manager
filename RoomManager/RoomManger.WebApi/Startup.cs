@@ -14,6 +14,9 @@ namespace RoomManger.WebApi
 {
     public class Startup
     {
+        //Variables de clase
+        readonly string myPolice = "policeApi";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -29,6 +32,8 @@ namespace RoomManger.WebApi
             services.Configure<AppSettings>(appSettingsSection);
 
             var appSettings = appSettingsSection.Get<AppSettings>();
+
+            services.AddFeature(Configuration);
 
             //Se configura el uso de AutoMapper.
             services.AddAutoMapper(typeof(PerfilesMapeo));
@@ -78,6 +83,9 @@ namespace RoomManger.WebApi
                 string swaggerJsonBasePath = string.IsNullOrWhiteSpace(c.RoutePrefix) ? "." : "..";
                 c.SwaggerEndpoint($"{swaggerJsonBasePath}/swagger/v1/swagger.json", "My API");
             });
+
+            //Se habilita el uso de CORS (dominios cruzados) en la Web Api.
+            app.UseCors(myPolice);
 
             app.UseHttpsRedirection();
             app.UseMvc();
