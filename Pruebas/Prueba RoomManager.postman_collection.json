@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "2dfca254-389b-4901-ad6d-6cff9df27fad",
+		"name": "Prueba RoomManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16263413"
+	},
+	"item": [
+		{
+			"name": "Obtener Usuarios",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Mensaje\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.mensajes).to.eql(\"Consulta Exitosa!\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/api/Usuario/ObtenerUsuariosAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Usuario",
+						"ObtenerUsuariosAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Usuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Mensaje\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.mensajes).to.eql(\"Inserción Exitosa!\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pkIdUsuario\": 6,\r\n  \"nombreUsuario\": \"TestPostman\",\r\n  \"identificacionUsuario\": \"123456\",\r\n  \"contraseñaUsuario\": \"Prueba\",\r\n  \"fkIdRol\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/api/Usuario/InsertarUsuarioAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Usuario",
+						"InsertarUsuarioAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Usuario Validación Contraseña",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pkIdUsuario\": 6,\r\n  \"nombreUsuario\": \"TestPostman\",\r\n  \"identificacionUsuario\": \"123456\",\r\n  \"contraseñaUsuario\": \"PruebaPostman\",\r\n  \"fkIdRol\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/api/Usuario/InsertarUsuarioAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"api",
+						"Usuario",
+						"InsertarUsuarioAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
