@@ -63,7 +63,8 @@ namespace RoomManager.Infraestructura.Repositorio.General
         public async Task<IEnumerable<Usuario>> obtenerUsuariosAsync (){
             using (var conexion = _connectionRoomManagerDB.GetConnection)
             {
-                var sql = @"SELECT NOMBRE_USUARIO nombreUsuario,
+                var sql = @"SELECT PK_ID_USUARIO pkIdUsuario,
+                                   NOMBRE_USUARIO nombreUsuario,
                                    IDENTIFICACION_USUARIO identificacionUsuario,
                                    CONTRASEÑA_USUARIO contraseñaUsuario,
                                    FK_ID_ROL fkIdRol
@@ -76,6 +77,47 @@ namespace RoomManager.Infraestructura.Repositorio.General
 
                 // Se retorna el resultado requerido.
                 return respuesta;
+            }
+        }
+
+        public async Task<bool> EliminarUsuarioAsync(int IdUsuario) {
+            using (var conexion = _connectionRoomManagerDB.GetConnection)
+            {
+                var sql = @" DELETE
+                            FROM USUARIOS
+                            WHERE PK_ID_USUARIO = :idUsuario";
+
+                // Definición de parámetros.
+                var parametros = new DynamicParameters();
+                parametros.Add(name: "idUsuario", value: IdUsuario);
+
+                var respuesta = await conexion.ExecuteAsync(sql, parametros, commandType: CommandType.Text);
+
+                // Se retorna el resultado requerido.
+                return respuesta > 0;
+            }
+        }
+
+        public async Task<bool> ActualizarrUsuarioAsync(Usuario usuario) {
+            using (var conexion = _connectionRoomManagerDB.GetConnection)
+            {
+                var sql = @" UPDATE USUARIOS SET
+                            NOMBRE_USUARIO = :nombreUsuario,
+                            IDENTIFICACION_USUARIO = :identificacionUsuario,
+                            FK_ID_ROL = :idRol
+                            WHERE PK_ID_USUARIO = :idUsuario";
+
+                // Definición de parámetros.
+                var parametros = new DynamicParameters();
+                parametros.Add(name: "idUsuario", value: usuario.pkIdUsuario);
+                parametros.Add(name: "nombreUsuario", value: usuario.nombreUsuario);
+                parametros.Add(name: "identificacionUsuario", value: usuario.identificacionUsuario);
+                parametros.Add(name: "idRol", value: usuario.fkIdRol);
+
+                var respuesta = await conexion.ExecuteAsync(sql, parametros, commandType: CommandType.Text);
+
+                // Se retorna el resultado requerido.
+                return respuesta > 0;
             }
         }
     }
