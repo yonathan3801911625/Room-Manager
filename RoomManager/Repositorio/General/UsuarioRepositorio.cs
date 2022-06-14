@@ -104,7 +104,8 @@ namespace RoomManager.Infraestructura.Repositorio.General
                 var sql = @" UPDATE USUARIOS SET
                             NOMBRE_USUARIO = :nombreUsuario,
                             IDENTIFICACION_USUARIO = :identificacionUsuario,
-                            FK_ID_ROL = :idRol
+                            FK_ID_ROL = :idRol,
+                            CONTRASEÑA_USUARIO = :contrasena
                             WHERE PK_ID_USUARIO = :idUsuario";
 
                 // Definición de parámetros.
@@ -113,6 +114,7 @@ namespace RoomManager.Infraestructura.Repositorio.General
                 parametros.Add(name: "nombreUsuario", value: usuario.nombreUsuario);
                 parametros.Add(name: "identificacionUsuario", value: usuario.identificacionUsuario);
                 parametros.Add(name: "idRol", value: usuario.fkIdRol);
+                parametros.Add(name: "contrasena", value: usuario.contraseñaUsuario);
 
                 var respuesta = await conexion.ExecuteAsync(sql, parametros, commandType: CommandType.Text);
 

@@ -103,9 +103,17 @@ namespace RoomManager.Aplicacion.Principal
                 // Se llama al método que permite consultar las configuraciones.
                 respuesta.Datos = await _usuarioDominio.EliminarUsuarioAsync(IdUsuario);
 
-                // Se asigna el resultado.
-                respuesta.ResultadoExitoso = true;
-                respuesta.Mensajes = "Eliminación Exitosa!";
+                if (respuesta.Datos)
+                {
+                    // Se asigna el resultado.
+                    respuesta.ResultadoExitoso = true;
+                    respuesta.Mensajes = "Eliminación Exitosa!";
+                }
+                else {
+                    // Se asigna el resultado.
+                    respuesta.ResultadoExitoso = true;
+                    respuesta.Mensajes = "El registro no se ha eliminado!";
+                }
             }
             catch (Exception ex)
             {
@@ -136,6 +144,12 @@ namespace RoomManager.Aplicacion.Principal
                 {
                     respuesta.ResultadoExitoso = true;
                     respuesta.Mensajes = "Actualización Exitosa!";
+                }
+                else
+                {
+                    // Se asigna el resultado.
+                    respuesta.ResultadoExitoso = true;
+                    respuesta.Mensajes = "El registro no se ha actualizado!";
                 }//Fín if
 
             }
