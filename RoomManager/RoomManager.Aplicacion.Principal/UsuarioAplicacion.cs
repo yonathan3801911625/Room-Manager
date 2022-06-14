@@ -35,7 +35,7 @@ namespace RoomManager.Aplicacion.Principal
             _util = util;
         }
 
-        public async Task<RespuestaOperacion<bool>> InsertarUsuarioAsync(UsuarioDTO usuarioDTO) {
+        public async Task<RespuestaOperacion<bool>> InsertarUsuarioAsync(UsuarioDTO usuario) {
            
             //Declaración de variables
             var respuesta = new RespuestaOperacion<bool>();
@@ -43,10 +43,10 @@ namespace RoomManager.Aplicacion.Principal
             try {
 
                 //Se mapean los objetos recibidos al tipo de objeto requerido.
-                var usuario = _mapper.Map<Usuario>(usuarioDTO);
+                var usuarioMapeado = _mapper.Map<Usuario>(usuario);
 
                 //Sellama al método que permite actualizar el registro requerido y se asigna el resultado obtenido.
-                respuesta.Datos = await _usuarioDominio.InsertarUsuarioAsync(usuario);
+                respuesta.Datos = await _usuarioDominio.InsertarUsuarioAsync(usuarioMapeado);
 
                 //Se valida el resultado
                 if (respuesta.Datos)
@@ -87,6 +87,62 @@ namespace RoomManager.Aplicacion.Principal
             {
                 respuesta.MensajeError = ex.Message;
                 _logger.LogError(ex, "Error en el método obtenerUsuariosAsync()");
+
+            }//Fín try
+
+            //Se retorna el resultado obtenido.
+            return respuesta;
+        }
+
+        public async Task<RespuestaOperacion<bool>> EliminarUsuarioAsync(int IdUsuario) {
+            //Declaración de variables
+            var respuesta = new RespuestaOperacion<bool>();
+
+            try
+            {
+                // Se llama al método que permite consultar las configuraciones.
+                respuesta.Datos = await _usuarioDominio.EliminarUsuarioAsync(IdUsuario);
+
+                // Se asigna el resultado.
+                respuesta.ResultadoExitoso = true;
+                respuesta.Mensajes = "Eliminación Exitosa!";
+            }
+            catch (Exception ex)
+            {
+                respuesta.MensajeError = ex.Message;
+                _logger.LogError(ex, "Error en el método EliminarUsuarioAsync()");
+
+            }//Fín try
+
+            //Se retorna el resultado obtenido.
+            return respuesta;
+        }
+
+        public async Task<RespuestaOperacion<bool>> ActualizarrUsuarioAsync(UsuarioDTO usuario) {
+            //Declaración de variables
+            var respuesta = new RespuestaOperacion<bool>();
+
+            try
+            {
+
+                //Se mapean los objetos recibidos al tipo de objeto requerido.
+                var usuarioMapeado = _mapper.Map<Usuario>(usuario);
+
+                //Sellama al método que permite actualizar el registro requerido y se asigna el resultado obtenido.
+                respuesta.Datos = await _usuarioDominio.ActualizarrUsuarioAsync(usuarioMapeado);
+
+                //Se valida el resultado
+                if (respuesta.Datos)
+                {
+                    respuesta.ResultadoExitoso = true;
+                    respuesta.Mensajes = "Actualización Exitosa!";
+                }//Fín if
+
+            }
+            catch (Exception ex)
+            {
+                respuesta.MensajeError = ex.Message;
+                _logger.LogError(ex, "Error en el método ActualizarrUsuarioAsync()");
 
             }//Fín try
 

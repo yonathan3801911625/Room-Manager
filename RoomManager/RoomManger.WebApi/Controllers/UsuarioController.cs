@@ -64,6 +64,47 @@ namespace RoomManger.WebApi.Controllers
             }// Fín if.
         }
 
+        [HttpPut]
+        [Route("EliminarUsuarioPorIdAsync")]
+        public async Task<IActionResult> Eliminar([FromBody] UsuarioDTO usuarioDTO) {
+            // Se llama al método que permite obtener las configuraciones de acceso.
+            var respuesta = await _usuarioAplicacion.EliminarUsuarioAsync(usuarioDTO.pkIdUsuario);
+
+            // Se valida el resultado obtenido.
+            if (respuesta.ResultadoExitoso)
+            {
+                // Se retorna el resultado requerido.
+                return Ok(respuesta);
+            }
+            else
+            {
+                // Se retorna el resultado requerido.
+                return BadRequest(respuesta.MensajeError);
+            }// Fín if.
+        }
+
+        [HttpPost]
+        [Route("ActualizarUsuarioAsync")]
+        public async Task<IActionResult> ActualizarUsuarioAsync([FromBody] UsuarioDTO usuarioDTO)
+        {
+            if (usuarioDTO == null) return BadRequest("Parámetro nulo.");
+
+            // Se llama al método que permite hacer la inserción de la entidad.
+            var respuesta = await _usuarioAplicacion.ActualizarrUsuarioAsync(usuarioDTO);
+
+            // Se valida el resultado obtenido.
+            if (respuesta.ResultadoExitoso)
+            {
+                // Se retorna el resultado requerido.
+                return Ok(respuesta);
+            }
+            else
+            {
+                // Se retorna el resultado requerido.
+                return BadRequest(respuesta.MensajeError);
+            }// Fín if.
+        }
+
         #endregion
     }
 }

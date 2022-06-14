@@ -11,5 +11,9 @@ namespace RoomManager.Dominio.InterfazRepositorio.General
         Task<bool> InsertarUsuarioAsync(Usuario usuario);
 
         Task<IEnumerable<Usuario>> obtenerUsuariosAsync();
+
+        Task<bool> EliminarUsuarioAsync(int IdUsuario);
+
+        Task<bool> ActualizarrUsuarioAsync(Usuario usuario);
     }
 }

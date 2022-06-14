@@ -12,7 +12,8 @@ namespace RoomManager.Dominio.Core.General
     {
         //Atributos de clase
         private readonly IUsuarioRepositorio _usuarioRepositorio;
-        public UsuarioDominio(IUsuarioRepositorio usuarioRepositorio) {
+        public UsuarioDominio(IUsuarioRepositorio usuarioRepositorio)
+        {
             _usuarioRepositorio = usuarioRepositorio;
         }
 
@@ -22,10 +23,18 @@ namespace RoomManager.Dominio.Core.General
 
         }
 
-        public async Task<IEnumerable<Usuario>> obtenerUsuariosAsync() {
+        public async Task<IEnumerable<Usuario>> obtenerUsuariosAsync()
+        {
             return await _usuarioRepositorio.obtenerUsuariosAsync();
         }
 
+        public async Task<bool> EliminarUsuarioAsync(int IdUsuario)
+        {
+            return await _usuarioRepositorio.EliminarUsuarioAsync(IdUsuario);
+        }
 
+        public async Task<bool> ActualizarrUsuarioAsync(Usuario usuario) {
+            return await _usuarioRepositorio.ActualizarrUsuarioAsync(usuario);
+        }
     }
 }

@@ -64,8 +64,8 @@ namespace RoomManger.WebApi.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Emergia Technology Services API Market",
-                    Description = "Web API Empleados Emergia",
+                    Title = "Brothers Technology Services API Market",
+                    Description = "Web API Room Manager",
                     TermsOfService = new Uri("https://EmEmpleados.com/terms"),
                     Contact = new OpenApiContact
                     {
